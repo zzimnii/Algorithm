@@ -1,6 +1,7 @@
 def solution(people, limit):
     answer = 0
     people = sorted(people, reverse=True)
+    # 투포인터
     left ,right = 0, len(people)-1
 
     # 0 1 2

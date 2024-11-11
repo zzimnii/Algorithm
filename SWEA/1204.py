@@ -10,4 +10,4 @@ for test_case in range(1, T + 1):
     c = Counter(n_list)
     c = sorted(c.items(), key=lambda x: (-x[1], -x[0]))
     most_common_value = c[0][0]
-    print("#",n, " " ,most_common_value)
+    print(f"#{test_case} {most_common_value}")
